@@ -34,6 +34,7 @@ CREATE TABLE `filme` (
   `categoria` varchar(45) NOT NULL,
   `diretor` varchar(20) NOT NULL,
   `data_lancamento` date DEFAULT NULL,
+  `tempo_filme` Time NOT NULL,
   `descricao` varchar(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
