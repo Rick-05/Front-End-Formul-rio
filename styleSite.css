@@ -17,6 +17,10 @@ nav {
     border-bottom: 6px solid #77FFC0;
 }
 
+nav > button{
+    text-decoration: underline;
+}
+
 nav .btn1 {
     font-family: sans-serif;
     font-weight: 700;
@@ -48,22 +52,20 @@ nav .btn2 {
 .mainSite {
     display: flex;
     flex-direction: column;
+    padding: 0 30px;
 }
 
 .mainSite h1 {
     margin-bottom: 10px;
     align-self: center;
     color: #77FFC0;
+    text-decoration: underline;
 }
 
 .mainSite .Lancamentos {
     display: flex;
-
-    margin: 0 100px;
-
     flex-direction: row;
     flex-wrap: wrap;
-
     gap: 30px;
 }
 
@@ -71,24 +73,40 @@ nav .btn2 {
     display: flex;
     align-items: center;
     padding-left: 28px;
-    width: 500px;
-    height: 500px;
-
     border-radius: 48px;
-
     border: 6px solid #77FFC0;
 }
-
-.filmes>img {
-    width: 222px;
-    height: 312x;
-    display: flex;
+.Lancamentos{
+    padding: 10px;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+.filmes{
+    justify-content: center;
+    width: 403px;
+    height: 234px;
 }
 
-.filmes>p{
-    margin: 0;
+
+.filmes>img {
+    width: 122px;
+    height: 212x;
     display: flex;
     flex-direction: row;
-    color:  #77FFC0;
+    border-radius: 20px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.info > h1{
+    width: 100%;
+    font-weight: 400;
+    display: flex;
+    justify-content: start;
 }
