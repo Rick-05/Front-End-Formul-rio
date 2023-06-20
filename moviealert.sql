@@ -30,12 +30,12 @@ SET time_zone = "+00:00";
 CREATE TABLE `filme` (
   `idfilme` int(11) NOT NULL,
   `link_img` varchar(100) NOT NULL,
-  `titulo` varchar(45) NOT NULL,
-  `categoria` varchar(45) NOT NULL,
-  `diretor` varchar(20) NOT NULL,
-  `data_lancamento` date DEFAULT NULL,
-  `tempo_filme` Time NOT NULL,
-  `descricao` varchar(45) NOT NULL
+  `titulo_filme` varchar(45) NOT NULL,
+  `duracao_filme` time NOT NULL,
+  `categoria_filme` varchar(45) NOT NULL,
+  `diretor_filme` varchar(20) NOT NULL,
+  `data_lancamento_filme` date DEFAULT NULL,
+  `descricao_filme` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 -- --------------------------------------------------------
